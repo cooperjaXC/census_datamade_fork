@@ -168,9 +168,9 @@ class TestEndpoints(CensusTestCase):
             ('state_place', 'Gaithersburg city, Maryland'),
             # 2022 and 2023 ACS5 API calls use legislative districts from 2022 as their geography
             ('state_district',
-                'Congressional District 6 (118th Congress), Maryland'),
+                'Congressional District 6 (119th Congress), Maryland'),
             ('state_congressional_district',
-                'Congressional District 6 (118th Congress), Maryland'),
+                'Congressional District 6 (119th Congress), Maryland'),
             ('state_legislative_district_upper',
                 'State Senate District 6 (2022); Maryland'),
             ('state_legislative_district_lower',
@@ -213,7 +213,7 @@ class TestEndpoints(CensusTestCase):
             ('us', 'United States'),
             ('state', 'Maryland'),
             ('state_congressional_district',
-                'Congressional District 6 (118th Congress), Maryland'),
+                'Congressional District 6 (119th Congress), Maryland'),
         )
 
         self.check_endpoints('acs5st', tests)
